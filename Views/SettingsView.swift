@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Photos
 
 struct SettingsView: View {
     @EnvironmentObject var photoManager: PhotoManager
