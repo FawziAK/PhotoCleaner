@@ -19,10 +19,8 @@ class PhotoManager: ObservableObject {
     @Published var isLoading = false
     
     init() {
-        checkAuthorizationStatus()
-    }
-    
-    func checkAuthorizationStatus() {
+        // All properties are initialized with default values above
+        // Now safe to call instance methods
         authorizationStatus = PHPhotoLibrary.authorizationStatus(for: .readWrite)
     }
     
