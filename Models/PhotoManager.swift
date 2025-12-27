@@ -8,6 +8,7 @@
 import Foundation
 import Photos
 import UIKit
+import Combine
 
 class PhotoManager: ObservableObject {
     @Published var authorizationStatus: PHAuthorizationStatus = .notDetermined
