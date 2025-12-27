@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Charts
+import Photos
 
 struct StorageView: View {
     @EnvironmentObject var photoManager: PhotoManager
